@@ -1,6 +1,5 @@
-import pygame
-
-pygame.init()
-pygame.mixer.music.load('musica.mp3')
-pygame.mixer.music.play()
-pygame.event.wait()
+from random import randint
+x = 1
+while x <= 6:
+    print(randint(1,60))
+    x += 1
