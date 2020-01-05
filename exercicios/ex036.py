@@ -12,7 +12,7 @@ valprest = valcasa / prest
 print(f"Para pagar uma casa no valor de R$ {valcasa:.2f} em {anos} anos, a prestação será de: R${valprest:.2f} ")
 
 if valprest <= valmax :
-    print("Empréstimo Aprovado!")
+    print("Empréstimo Aprovado com Sucesso!")
 else:
     print("Empréstimo Negado!")
 
